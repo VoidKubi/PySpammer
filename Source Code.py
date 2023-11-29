@@ -1,4 +1,3 @@
-# -*- coding: utf-8 -*-
 import time
 import pyautogui as pygui
 
@@ -16,3 +15,5 @@ time.sleep(5)
 for i in range(ile):
     pygui.typewrite(co)
     pygui.press("enter")
+
+end = input("Wciśnij enter aby zakończyć ")
